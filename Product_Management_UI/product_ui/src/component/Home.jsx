@@ -19,7 +19,7 @@ const Home = () => {
         console.log(error);
       });
   };
-
+	
   const deleteProduct = (id) => {
     productService
       .deleteProduct(id)
@@ -38,11 +38,10 @@ const Home = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="card">
-              <div className="card-header fs-3 text-center">
-                All Product List
+              <div className="card-header fs-3 text-center"><b>
+                WELCOME TO PRODUCT STORE</b>
                 {msg && <p className="fs-4 text-center text-success">{msg}</p>}
               </div>
-
               <div className="card-body">
                 <table class="table">
                   <thead>

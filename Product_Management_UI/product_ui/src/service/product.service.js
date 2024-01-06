@@ -26,4 +26,4 @@ class ProductService {
 
 }
 
-export default new ProductService;
+export default new ProductService();
