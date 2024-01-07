@@ -24,7 +24,7 @@ const Home = () => {
     productService
       .deleteProduct(id)
       .then((res) => {
-        setMsg("Delete Sucessfully");
+        setMsg("Deleted Sucessfully");
         init();
       })
       .catch((error) => {
